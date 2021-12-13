@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+/* overall background */
+body {
+    color:rgb(98, 147, 190)
+}
+
+/* header styles */
+header {
+    padding: 20px 35px;
+    background-color: rgb(98, 147, 190);
+}
+
+header h1 {
+    font-weight: lighter italic;
+    font-size: 30px;
+    color: rgb(255, 250, 244);
+    margin: 0; 
+    display: inline;
+    letter-spacing: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(255, 250, 244);
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 30px;
+    font-weight: lighter italic;
+    font-size: 22px;
+}
+
+/*Hero or whatever it is*/
+
+.bugblurb {
+text-align: center;
+width: 900px;
+margin: 0 auto 30px auto;
+}
+
+.bugblurb img {
+    width: 35%;
+    float: left;
+  }
